@@ -1,0 +1,189 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: lightyellow;
+  color: black;
+}
+
+header {
+  background-color: salmon;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Section Styling */
+.hero,
+.featured,
+.recipes,
+.tips,
+.about,
+.gallery,
+.contact {
+  margin-top: 30px;
+}
+
+h2, h3 {
+  color: salmon;
+}
+
+/* Card Layout */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px gray;
+  width: 220px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Gallery Images */
+.gallery img {
+  width: 220px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+/* Specific Image Styling */
+img[src*="donuts1.jpg"],
+img[src*="donuts2.jpg"],
+img[src*="curry.jpg"],
+img[src*="cake.jpg"],
+img[src*="lemonade.jpg"] {
+  border: 2px solid salmon;
+  transition: transform 0.3s ease;
+}
+
+img[src*="donuts1.jpg"]:hover,
+img[src*="donuts2.jpg"]:hover,
+img[src*="curry.jpg"]:hover,
+img[src*="cake.jpg"]:hover,
+img[src*="lemonade.jpg"]:hover {
+  transform: scale(1.05);
+}
+
+/* Recipe Lists */
+.recipe ul, .recipe ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.recipe li {
+  margin-bottom: 5px;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+button {
+  padding: 10px;
+  background-color: salmon;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightcoral;
+}
+
+/* Footer */
+footer {
+  background-color: salmon;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Theme Toggle Button */
+#themeToggle {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: white;
+  color: salmon;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#themeToggle:hover {
+  background-color: lightgray;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+header.dark-mode {
+  background-color: black;
+}
+
+nav a.dark-mode {
+  color: lightgray;
+}
+
+.card.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+footer.dark-mode {
+  background-color: black;
+}
