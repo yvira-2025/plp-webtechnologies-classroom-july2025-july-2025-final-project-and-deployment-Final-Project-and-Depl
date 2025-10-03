@@ -15,7 +15,7 @@ FlavorBurst Kitchen is a vibrant, beginner-friendly cooking website built with H
 ## 🌐 Live Site
 
 Visit the deployed website here:  
-**[FlavorBurst Kitchen on GitHub Pages](https://YOUR_USERNAME.github.io/flavorburst-kitchen/)**
+**[FlavorBurst Kitchen on GitHub Pages](https://yvira-2025.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/))**
 
 ## 💡 Purpose
 
@@ -27,7 +27,7 @@ This project was created to demonstrate:
 
 ## ✨ Author
 
-Built by [Yvonne Kawira](https://github.com/YOUR_USERNAME) — aspiring frontend developer and creative problem solver.
+Built by [Yvonne Kawira](https://github.com/Yvira-2025) — aspiring frontend developer and creative problem solver.
 
 
 
